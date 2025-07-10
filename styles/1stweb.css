@@ -50,4 +50,20 @@ body {
     cursor: pointer;
     border-radius: 5px;
 }
+.preview {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px 20px;
+}
+
+.preview-text {
+    max-width: 400px;
+}
+.preview-img{
+    border-radius: 48px;
+
+    
+}
+
 
