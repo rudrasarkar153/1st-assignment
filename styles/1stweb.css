@@ -9,7 +9,7 @@ body {
     background: #f5f7ff;
     color: #333;
 }
-
+/* header & preview section */
 .hero {
     background-image: url('../B12A01-landing-launchpad/Assets/Hero-bg.png');
 
@@ -65,7 +65,7 @@ body {
 
     
 }
-
+/* p-u-c */
 .productive-user-section {
     background-color: rgba(78, 71, 255, 0.1);
     text-align: center;
@@ -101,6 +101,7 @@ body {
 .bold-part {
     color: #4E47FF;
 
+/* user feedback section */
 }
 .user-feedbacks {
     display: flex;
@@ -165,6 +166,71 @@ body {
     border-radius: 5px;
     margin-bottom: 30px;
 }
+/* contact section */
+.contact-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 50px 20px;
+    background: #f4f6fc;
+}
+
+.contact-text {
+    flex: 1 1 300px;
+    padding: 20px;
+}
+
+.contact-text h2 {
+    font-size: 2.5rem;
+}
+
+.contact-form {
+    flex: 1 1 300px;
+    padding: 20px;
+}
+
+.contact-form input, 
+.contact-form textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    width: 100%;
+    padding: 12px;
+    background: #4c4cff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+/* footer section */
+.footer {
+    text-align: center;
+    padding: 30px 20px;
+    background: white;
+       
+}
+
+.logo {
+    color: #4c4cff;
+    margin-bottom: 10px;
+}
+
+.footer-nav {
+    margin-top: 10px;
+}
+
+.footer-nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+}
+
 
 
 
