@@ -66,4 +66,42 @@ body {
     
 }
 
+.productive-user-section {
+    background-color: rgba(78, 71, 255, 0.1);
+    text-align: center;
+    padding: 50px 150px;
+    margin: 0px 100px;
+    border-radius: 24px;
+}
+.inter-normal {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+.user-section-items {
+    display: flex;
+    justify-content: space-around;
+  
+}
+.raleway-normal {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+.user-section-title {
+    font-size: 38px;
+    font-weight: bold;
+    color: #252432;
+    margin: 0px;
+}
+.user-section-item{
+    display: block;
+    unicode-bidi: isolate;
+}
+.bold-part {
+    color: #4E47FF;
+
+}
+
+
 
